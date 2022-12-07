@@ -1,3 +1,4 @@
+
 .barsup{
     display: flex;
     justify-content: space-between;
@@ -161,7 +162,7 @@ footer{
     background-color:rgb(26, 26, 35);
     /*Con el codigo de abajo conseguimos un FOOTER FIJO abajo*/
    display: flex;
-    
+    position: fixed;
     left:0px;
     bottom:0px;
     height:70px;
@@ -231,3 +232,20 @@ ul li:hover{
 .marketingimg{
     background-color: aliceblue;
 }
+#blog{
+    margin-top:80px;
+    color:rgb(228, 13, 103);
+    font-size:30px;
+    margin-left: 500px;
+    
+}
+.cuadrado{
+    display: flex;
+    justify-content: center;
+    border-style: ridge;
+    
+}
+#imgblog{
+    width: 120vh;
+    height: 80vh;
+    justify-content: center;}
